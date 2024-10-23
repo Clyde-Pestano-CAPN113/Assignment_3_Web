@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive History Quiz</title>
+  <link rel="stylesheet" href="Styling.css">
+</head>
+<body>
+  <!--Authentication -->
+  <div id="auth-container">
+    <h2>Login to Start the Quiz</h2>
+    <input type="text" id="username" placeholder="Enter username">
+    <button id="auth-button">Login</button>
+    <p id="auth-message"></p>
+  </div>
+
+  <!-- Quiz container -->
+  <div id="quiz-container" style="display: none;">
+    <h1>General History Quiz</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <h3>Who was the first president of the United States?</h3>
+        <input type="radio" name="q1" value="a">George Washington</label><br>
+        <input type="radio" name="q1" value="b">Abraham Lincoln</label><br>
+        <input type="radio" name="q1" value="c">John Adams</label>
+      </div>
+
+      <div class="question">
+        <h3>In what year did World War II end?</h3>
+        <input type="radio" name="q2" value="a">1939</label><br>
+        <input type="radio" name="q2" value="b">1945</label><br>
+        <input type="radio" name="q2" value="c">1950</label>
+      </div>
+
+      <div class="question">
+        <h3>Which empire was known for its vast network of roads?</h3>
+        <input type="radio" name="q3" value="a">Roman Empire</label><br>
+        <input type="radio" name="q3" value="b">Ottoman Empire</label><br>
+        <input type="radio" name="q3" value="c">British Empire</label>
+      </div>
+
+      <div class="question">
+        <h3>What was the name of Blackbeard/Edward Teach's ship</h3>
+        <input type="radio" name="q4" value="a">La Concorde</label><br>
+        <input type="radio" name="q4" value="b">The Saber of Xebec</label><br>
+        <input type="radio" name="q4" value="c">Ferry of the Blackbeard</label>
+      </div>
+
+      <div class="question">
+        <h3>When was the Declaration of Independence signed in the US</h3>
+        <input type="radio" name="q5" value="a">August 2, 1776</label><br>
+        <input type="radio" name="q5" value="b">May 5, 1827</label><br>
+        <input type="radio" name="q5" value="c">April 30, 1789</label>
+      </div>
+      
+      <button type="button" id="submit-quiz">Submit</button>
+    </form>
+    <p id="score"></p>
+  </div>
+
+  <script src="MainScript.js"></script>
+</body>
+</html>
