@@ -9,8 +9,8 @@ body {
   }
   
   #auth-container, #quiz-container{
-    background-color: #fff;
-    padding: 20px;
+    background-color: rgb(rgb(24, 35, 63), green, blue);
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
