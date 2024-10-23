@@ -16,7 +16,6 @@ document.getElementById('auth-button').addEventListener('click', function () {
 // Quiz logic
 document.getElementById('submit-quiz').addEventListener('click', function () {
   let score = 0;
-  let NumberOfAnswers = 3;
   //Creating an array of all the answers for each question
   const answers = {
     q1: 'a',
